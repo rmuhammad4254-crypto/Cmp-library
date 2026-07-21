@@ -1,19 +1,12 @@
 {
   "name": "cmp-library",
   "version": "1.0.0",
-  "description": "CMP Library Management System",
+  "description": "CMP Library",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": [
-    "library",
-    "express",
-    "sqlite"
-  ],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "body-parser": "^2.3.0",
     "express": "^5.2.1",
