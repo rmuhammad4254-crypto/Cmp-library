@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Student Login</title>
+
+<link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+
+<div class="login-container">
+
+    <div class="login-card">
+
+        <h1>📚 CMP Library</h1>
+
+        <p>Welcome Back</p>
+
+
+        <form id="loginForm">
+
+            <input
+            type="text"
+            id="admission_no"
+            placeholder="Admission Number"
+            required>
+
+          <div class="password-box">
+
+    <input
+    type="password"
+    id="password"
+    placeholder="Password"
+    required>
+
+    <span id="togglePassword">
+
+        👁️
+
+    </span>
+
+</div>
+            <button
+type="submit"
+id="loginBtn">
+
+Login
+
+</button>
+        </form>
+<div id="message"></div>
+        <div class="links">
+
+            <p>
+                New student?
+                <a href="signup.html">
+                    Create Account
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="login.js"></script>
+
+</body>
+
+</html>

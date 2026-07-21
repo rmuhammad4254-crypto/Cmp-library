@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Upload Handouts</title>
+
+<link rel="stylesheet" href="upload.css">
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h2>📖 Upload Course Handout</h2>
+
+
+<label>Select Course</label>
+
+<select id="course">
+
+<option>
+Loading courses...
+</option>
+
+</select>
+
+
+<form id="uploadForm"
+enctype="multipart/form-data">
+
+
+<label>Handout Title</label>
+
+<input 
+type="text"
+id="title"
+placeholder="Enter handout title"
+required>
+
+
+<label>Select PDF</label>
+
+<input
+type="file"
+id="pdf"
+accept=".pdf"
+required>
+
+
+<button type="submit">
+
+Upload Handout
+
+</button>
+
+
+</form>
+
+
+<p id="message"></p>
+
+
+</div>
+
+</div>
+
+
+<script src="upload_handouts.js"></script>
+
+</body>
+
+</html>

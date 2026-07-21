@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Manage Courses</title>
+
+<style>
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f5f7fb;
+    margin:0;
+}
+
+.container{
+    width:95%;
+    max-width:1000px;
+    margin:30px auto;
+}
+
+h2{
+    color:#1565c0;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    margin-bottom:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+th{
+    background:#1565c0;
+    color:#fff;
+    padding:12px;
+}
+
+td{
+    padding:12px;
+    border-bottom:1px solid #eee;
+    text-align:center;
+}
+
+button{
+    padding:8px 14px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.delete{
+    background:#e53935;
+    color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>📚 Manage Courses</h2>
+
+<input
+id="search"
+placeholder="Search course...">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Code</th>
+
+<th>Title</th>
+
+<th>Department</th>
+
+<th>Level</th>
+
+<th>Semester</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody id="courseTable"></tbody>
+
+</table>
+
+</div>
+
+<script src="manage_courses.js"></script>
+
+</body>
+</html>
+

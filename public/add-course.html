@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Add Course</title>
+
+    <link rel="stylesheet" href="add-course.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>📚 Add Course</h2>
+
+        <form id="courseForm">
+
+            <label>Course Code</label>
+
+            <input
+            type="text"
+            id="course_code"
+            required>
+
+            <label>Course Title</label>
+
+            <input
+            type="text"
+            id="course_title"
+            required>
+
+            <label>Department</label>
+
+            <select id="department">
+
+                <option>Computer Science</option>
+                <option>Cyber Security</option>
+                <option>Software Engineering</option>
+
+            </select>
+
+            <label>Level</label>
+
+            <select id="level">
+
+                <option>100</option>
+                <option>200</option>
+                <option>300</option>
+                <option>400</option>
+
+            </select>
+
+            <label>Semester</label>
+
+<select id="semester">
+
+<option value="First Semester">
+First Semester
+</option>
+
+<option value="Second Semester">
+Second Semester
+</option>
+
+</select>
+            <button type="submit">
+
+                Save Course
+
+            </button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </div>
+
+</div>
+
+<script src="add-course.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial,sans-serif;
+
+    background:#eef3ff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+}
+
+.login-container{
+
+    width:100%;
+
+    padding:20px;
+
+}
+
+.login-card{
+
+    max-width:400px;
+
+    margin:auto;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+.login-card h1{
+
+    text-align:center;
+
+    color:#0d6efd;
+
+}
+
+.login-card p{
+
+    text-align:center;
+
+    margin:10px 0 30px;
+
+    color:#666;
+
+}
+
+input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:15px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+}
+
+input:focus{
+
+    outline:none;
+
+    border-color:#0d6efd;
+
+    box-shadow:0 0 10px rgba(13,110,253,.25);
+
+}
+
+button{
+
+    width:100%;
+
+    padding:15px;
+
+    background:#0d6efd;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#0b5ed7;
+
+}
+
+.links{
+
+    margin-top:25px;
+
+    text-align:center;
+
+}
+
+.links a{
+
+    color:#0d6efd;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.password-box{
+
+    position:relative;
+
+}
+
+.password-box input{
+
+    width:100%;
+
+    padding-right:50px;
+
+}
+
+#togglePassword{
+
+    position:absolute;
+
+    right:15px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    cursor:pointer;
+
+    font-size:20px;
+
+    user-select:none;
+
+}
+#message{
+
+    display:none;
+
+    margin-bottom:15px;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    text-align:center;
+
+    font-weight:bold;
+
+}
+
+.success{
+
+    display:block;
+
+    background:#d4edda;
+
+    color:#155724;
+
+}
+
+.error{
+
+    display:block;
+
+    background:#f8d7da;
+
+    color:#721c24;
+
+}
+.login-card{
+
+    animation:fadeIn .5s ease;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}

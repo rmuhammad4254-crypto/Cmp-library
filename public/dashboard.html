@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CMP Library Dashboard</title>
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <div class="header">
+
+        <img
+        id="dashboardProfileImage"
+        src="https://via.placeholder.com/120"
+        class="avatar">
+
+        <h2 id="welcome">
+
+        Welcome...
+
+        </h2>
+
+        <p>
+
+        Admission:
+        <span id="admission"></span>
+
+        </p>
+
+        <p>
+
+        <span id="department"></span>
+
+        •
+
+        Level
+
+        <span id="level"></span>
+
+        </p>
+
+    </div>
+
+    <div class="stats">
+
+        <div class="stat-card">
+
+            <h2 id="totalCourses">
+
+            0
+
+            </h2>
+
+            <p>📚 Courses</p>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h2 id="totalResults">
+
+            0
+
+            </h2>
+
+            <p>📊 Results</p>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h2 id="totalExams">
+
+            0
+
+            </h2>
+
+            <p>📝 Exams</p>
+
+        </div>
+<div class="quick-actions">
+
+<h2>Quick Actions</h2>
+
+<div class="actions">
+
+<button onclick="window.location.href='results.html'">
+📊 My Results
+</button>
+
+<button onclick="window.location.href='profile.html'">
+👤 My Profile
+</button>
+
+<button onclick="window.location.href='library.html'">
+📚 Library
+</button>
+
+<button onclick="logout()">
+🚪 Logout
+</button>
+
+</div>
+
+</div>
+    </div>
+
+    <h2>
+
+    My Courses
+
+    </h2>
+
+    <div id="courseList">
+
+    </div>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>

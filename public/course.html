@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Course</title>
+<style>
+body{
+    font-family:Arial;
+    background:#f4f4f4;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    max-width:500px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+}
+
+input,select,button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
+
+button{
+    background:#0066cc;
+    color:white;
+    border:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h2>Add Course</h2>
+
+<form id="courseForm">
+
+<input
+type="text"
+id="course_code"
+placeholder="Course Code"
+required>
+
+<input
+type="text"
+id="course_title"
+placeholder="Course Title"
+required>
+
+<input
+type="text"
+id="department"
+placeholder="Department"
+required>
+
+<select id="level">
+
+<option value="100">100 Level</option>
+<option value="200">200 Level</option>
+<option value="300">300 Level</option>
+<option value="400">400 Level</option>
+
+</select>
+
+<select id="semester">
+
+<option value="First">First Semester</option>
+<option value="Second">Second Semester</option>
+
+</select>
+
+<button>Add Course</button>
+
+</form>
+
+</div>
+
+<script src="course.js"></script>
+
+</body>
+</html>

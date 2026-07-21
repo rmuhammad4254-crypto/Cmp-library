@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+
+<title>CMP Library CBT</title>
+
+<link rel="stylesheet" href="exam.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="topbar">
+
+<h2>📚 CMP Library CBT</h2>
+
+<div id="timer">
+
+30:00
+
+</div>
+
+</div>
+
+<div class="progress">
+
+<div id="progressBar"></div>
+
+</div>
+
+<div id="navigator" class="navigator">
+
+</div>
+
+<div class="questionCard">
+
+<h2 id="questionNumber">
+
+Question 1
+
+</h2>
+
+<h3 id="question">
+
+Loading...
+
+</h3>
+
+<label class="answer">
+
+<input
+type="radio"
+name="answer"
+value="A">
+
+<span id="a"></span>
+
+</label>
+
+<label class="answer">
+
+<input
+type="radio"
+name="answer"
+value="B">
+
+<span id="b"></span>
+
+</label>
+
+<label class="answer">
+
+<input
+type="radio"
+name="answer"
+value="C">
+
+<span id="c"></span>
+
+</label>
+
+<label class="answer">
+
+<input
+type="radio"
+name="answer"
+value="D">
+
+<span id="d"></span>
+
+</label>
+
+</div>
+
+<div class="buttons">
+
+<button
+class="prev"
+onclick="previousQuestion()">
+
+⬅ Previous
+
+</button>
+
+<button
+class="next"
+onclick="nextQuestion()">
+
+Next ➡
+
+</button>
+
+</div>
+
+<button
+class="submit"
+onclick="submitExam()">
+
+✅ Submit Examination
+
+</button>
+
+</div>
+
+<script src="exam.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Profile</title>
+
+<link rel="stylesheet" href="profile.css">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css">
+</head>
+
+<body>
+
+<div class="profile-card">
+
+<div class="profile-header">
+
+<img
+id="profileImage"
+src="https://via.placeholder.com/150"
+class="avatar">
+
+<h2 id="studentName">Loading...</h2>
+
+<p class="department">
+<span id="department"></span> •
+Level <span id="level"></span>
+</p>
+
+</div>
+
+<hr>
+
+<div class="profile-info">
+
+<p>
+<b>🎓 Admission Number</b><br>
+<span id="admission"></span>
+</p>
+
+<p>
+<b>🏫 Department</b><br>
+<span id="department2"></span>
+</p>
+
+<p>
+<b>📚 Level</b><br>
+<span id="level2"></span>
+</p>
+
+</div>
+
+<hr>
+
+<input
+type="file"
+id="imageInput"
+accept="image/*">
+
+<div id="cropContainer" style="display:none; margin-top:20px;">
+
+    <img
+    id="cropImage"
+    style="max-width:100%;">
+
+    <br><br>
+
+    <button onclick="cropAndUpload()">
+        ✅ Save Profile Picture
+    </button>
+
+</div>
+
+<br><br>
+
+<button onclick="window.location.href='dashboard.html'">
+🏠 Back to Dashboard
+</button>
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
+
+<script src="profile.js"></script>
+
+</body>
+</html>
+    

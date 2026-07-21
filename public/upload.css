@@ -1,0 +1,90 @@
+*{
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+
+body{
+
+    background:#eef4ff;
+    margin:0;
+
+}
+
+
+.container{
+
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+
+}
+
+
+.card{
+
+    background:white;
+    width:100%;
+    max-width:450px;
+    padding:30px;
+    border-radius:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+}
+
+
+h2{
+
+    color:#1565c0;
+    text-align:center;
+    margin-bottom:25px;
+
+}
+
+
+label{
+
+    display:block;
+    margin:15px 0 8px;
+
+}
+
+
+select,
+input{
+
+    width:100%;
+    padding:14px;
+    border-radius:10px;
+    border:1px solid #ddd;
+
+}
+
+
+button{
+
+    width:100%;
+    margin-top:25px;
+    padding:15px;
+
+    background:#1565c0;
+    color:white;
+
+    border:none;
+    border-radius:12px;
+
+    font-size:16px;
+
+}
+
+
+#message{
+
+    text-align:center;
+    margin-top:15px;
+    font-weight:bold;
+
+}

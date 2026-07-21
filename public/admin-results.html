@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>All Results</title>
+</head>
+<body>
+
+<h1>📊 Student Results</h1>
+<input
+id="search"
+type="text"
+placeholder="Search Admission Number">
+
+<button onclick="searchResult()">
+
+🔍 Search
+
+</button>
+
+<button onclick="loadResults()">
+
+Refresh
+
+</button>
+
+<hr>
+<table border="1" cellpadding="10">
+
+<thead>
+
+<tr>
+
+<th>Admission No</th>
+<th>Course Code</th>
+<th>Course Title</th>
+<th>Score</th>
+<th>Percentage</th>
+<th>Status</th>
+<th>Date</th>
+
+</tr>
+
+</thead>
+
+<tbody id="results">
+
+</tbody>
+
+</table>
+
+<script src="admin-results.js"></script>
+
+</body>
+</html>
